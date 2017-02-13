@@ -1,0 +1,151 @@
+@import url('reset.css');
+@import url('bootstrap.min.css');
+
+/*header styles*/
+.logo {
+	float: left;
+}
+/*header {
+	position: fixed; z-index: 9999;
+	background-color: #fff;
+	width: 100%;
+}*/
+nav {
+	float: left;
+	text-align: center;
+	margin: 77px 0 57px 139px;
+}
+nav ul li {
+  font-size: 14px;
+  font-family: "Lato";
+  font-weight: bold;
+  line-height: 1.2;
+  margin-right: 22px;
+  display: inline-block;
+}
+nav ul li:last-child {
+	margin-right: 0;	
+}
+
+nav ul li a,nav ul li a:hover{
+	text-decoration: none;
+	color: rgb(64, 64, 65);
+}
+.sprite {
+	float: right;
+	margin: 64px 50px 44px 0;
+}
+.sprite-fb {
+	background: url('../img/social.png') no-repeat 0 0;
+	width: 35px;
+	height: 35px;
+	display: inline-block;	
+}
+.sprite-yt {
+	background: url('../img/social.png') no-repeat -47px 0;
+	width: 35px;
+	height: 35px;
+	display: inline-block;	
+}
+.sprite-twitter {
+	background: url('../img/social.png') no-repeat -94px 0;
+	width: 35px;
+	height: 35px;
+	display: inline-block;	
+}
+.sprite-insta {
+	background: url('../img/social.png') no-repeat -141px 0;
+	width: 35px;
+	height: 35px;
+	display: inline-block;	
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+.arrow {
+	top :225px;
+}
+.carousel-caption {
+	/*top: 32%;
+	right: 18%;
+	bottom: 43%;
+	left: 0;*/
+  font-size: 19.444px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 714.228px;
+  top: 363.662px;
+  width: 155px;
+  height: 83px;
+  z-index: 8;
+}
+
+.aboutus .container,.programs .container{
+	background: url('../img/logo-grey.png') no-repeat center;
+	/*height: 401px;*/
+	margin :0 auto;
+}
+.aboutus{
+	margin-top: 84px;
+}
+.aboutus h2,.programs h2{
+  margin-bottom: 28px;
+  margin-top: 0;
+
+}
+.aboutus p {
+  font-size: 19.444px;
+  font-family: "Lato light";
+  color: rgb(64, 64, 65);
+  line-height: 1.2;
+  text-align: left;
+  
+}
+.management-commitee {
+	background-color: #f7902c;
+	margin-top: 74px;
+}
+.management-commitee h2{
+	margin-top: 40px;
+}
+.management-commitee h2,.management-commitee h3,.management-commitee span {
+	color: #fff;
+}
+.programs {
+	margin-top: 55px;
+}
+.programs h3 {
+	margin-top: 40px;
+}
+.programs h3:first-child{
+	margin-bottom: 22px;
+	margin-top: 0;
+}
+.programs {
+	margin-bottom: 77px;
+}
+footer {
+	background-color: #007f5d;
+}
+footer .addr {
+	width: 253px;
+	color: #fff;
+}
+footer img {
+	padding-top: 47px;
+	padding-bottom: 192px;
+}
+footer h3 {
+	margin-top: 47px;
+	color: #fff;
+}
+footer .contact-details {
+	color: #fff;
+	width: 159px;
+}
